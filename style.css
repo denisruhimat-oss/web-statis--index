@@ -1,8 +1,4 @@
 
-/* ==============================
-   RESET CSS
-============================== */
-
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +7,7 @@
     scroll-behavior: smooth;
 }
 
-/* ==============================
-   WARNA WEBSITE
-============================== */
+
 
 :root {
     --bg-color: #0f172a;
@@ -24,9 +18,6 @@
     --text-secondary: #94a3b8;
 }
 
-/* ==============================
-   BODY
-============================== */
 
 body {
     background-color: var(--bg-color);
@@ -34,9 +25,6 @@ body {
     line-height: 1.6;
 }
 
-/* ==============================
-   NAVBAR
-============================== */
 
 navbar {
     position: fixed;
@@ -83,9 +71,7 @@ navbar {
     color: var(--primary-color);
 }
 
-/* ==============================
-   CONTAINER
-============================== */
+
 
 .container {
     max-width: 1100px;
@@ -93,9 +79,7 @@ navbar {
     padding: 6rem 2rem 2rem;
 }
 
-/* ==============================
-   SECTION
-============================== */
+
 
 section {
     padding: 4rem 0;
@@ -120,9 +104,6 @@ section {
     border-radius: 2px;
 }
 
-/* ==============================
-   HERO / BERANDA
-============================== */
 
 .hero {
     text-align: center;
@@ -162,9 +143,7 @@ section {
     letter-spacing: 2px;
 }
 
-/* ==============================
-   TENTANG SAYA
-============================== */
+
 
 #tentang p {
     background: var(--card-bg);
@@ -175,9 +154,6 @@ section {
     text-align: center;
 }
 
-/* ==============================
-   LAYANAN / CARD
-============================== */
 
 .grid-container {
     display: grid;
@@ -237,9 +213,7 @@ section {
     transform: scale(1.08);
 }
 
-/* ==============================
-   KONTAK
-============================== */
+
 
 .contact-list {
     display: flex;
@@ -272,9 +246,7 @@ section {
     color: var(--primary-color);
 }
 
-/* ==============================
-   FOOTER
-============================== */
+
 
 footer {
     text-align: center;
@@ -283,9 +255,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* ==============================
-   RESPONSIVE DESIGN
-============================== */
+
 
 @media (max-width: 768px) {
 
